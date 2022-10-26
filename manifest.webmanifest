@@ -1,0 +1,6 @@
+{
+  "icons": [
+    { "src": "images/logo-android.png", "type": "img/png", "sizes": "192x192" },
+    { "src": "images/logo-android2.png", "type": "img/png", "sizes": "512x512" }
+  ]
+}

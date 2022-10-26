@@ -1,0 +1,404 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*HERO SECTION*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+
+.header p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.hero-section .menu {
+  font-size: 30px;
+  color: #fff;
+}
+.menu {
+  height: 45px;
+  width: 45px;
+}
+
+/*MOBIL*/
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #fff;
+  padding: 7px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  /* background: #ddd;
+    color: blueviolet;*/
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a.icon-medium {
+  display: none;
+  height: 30px;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a.top:hover {
+  background-color: #ddd;
+  color: purple;
+}
+
+.logo {
+  display: inline-flex;
+}
+
+.logo p {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.hero-section {
+  background-image: url("../images/3130_purple_abstract1.png");
+  background-size: cover;
+  background-position: center;
+  /*padding-top: 20px;*/
+  height: 700px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 32px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text {
+  text-align: center;
+}
+
+.hero .text h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  /*padding-bottom: 10px;*/
+  color: #fff;
+}
+
+.hero .text a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*.images {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  column-gap: 20px;
+}
+
+.google {
+  margin-bottom: 150px;
+  position: relative;
+}
+.iphone {
+  position: relative;
+  bottom: -60px;
+}
+.appstore {
+  margin-bottom: 150px;
+}*/
+
+.images {
+  margin: auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+.google {
+  width: 150px;
+  justify-self: right;
+  margin-top: 60px;
+}
+.iphone {
+  width: 440px;
+  justify-self: center;
+}
+.appstore {
+  width: 150px;
+  justify-self: left;
+  margin-top: 60px;
+}
+
+/*ICONS SECTION*/
+
+.icons {
+  margin-top: 250px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.icon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ion {
+  height: 50px;
+  width: 50px;
+  color: #7d3aa1;
+  margin-bottom: 15px;
+}
+
+.icons h5 {
+  color: #606060;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.icons p {
+  color: #cccecf;
+  line-height: 20px;
+}
+
+.cloud,
+.diamond {
+  margin-top: -100px;
+}
+
+/*WORK SECTION*/
+
+.work {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 80px;
+}
+
+.img img {
+  width: 140%;
+  /*display: block;*/
+}
+
+.how-work {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.how-work h2 {
+  padding-bottom: 20px;
+  font-size: 40px;
+  color: #303030;
+  font-family: "Montserrat", sans-serif;
+}
+
+.box {
+  display: flex;
+}
+.ion2 {
+  height: 55px;
+  width: 55px;
+  color: #7d3aa1;
+  /*margin-bottom: 15px;
+  margin-top: 55px;
+  margin-right: 20px;*/
+  margin: 55px 20px 15px 0;
+}
+
+.text-1 {
+  font-size: 18px;
+}
+
+.how-work h4 {
+  color: #606060;
+  padding-top: 40px;
+  padding-bottom: 2px;
+}
+
+.how-work p {
+  color: #cccecf;
+}
+
+/*ABOUT-US SECTION*/
+
+.about-us {
+  background-image: url("../images/wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  color: #fff;
+  /*padding-left: 300px;*/
+  /* padding-right: 300px;*/
+  max-width: 100%;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 100px;
+  height: 400px;
+}
+.garren-img img {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-bottom: 80px;
+}
+.garren-text {
+  width: 700px;
+}
+.garren-text h2 {
+  padding-bottom: 80px;
+  font-size: 38px;
+  padding-left: 30px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 10.5);
+}
+
+.garren-text p {
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 8px;
+}
+
+.name {
+  color: #606060;
+}
+.ellipsis {
+  color: #fff;
+  font-size: 50px;
+  margin-left: 115px;
+  margin-top: 30px;
+}
+
+/*WROTE SECTION*/
+
+.section-wrote {
+  padding: 55px 0 60px 0;
+}
+.heading-wrote {
+  font-size: 25px;
+  letter-spacing: 0.75px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heading-wrote h2 {
+  color: black;
+}
+
+.logos {
+  display: flex; /*egymas melle rakja oket*/
+  justify-content: space-between; /*hely kozejuk*/
+}
+
+.logos img {
+  height: 80px; /*kisebbek legzenek*/
+  filter: brightness(0); /*feketek legyenek elobb*/
+  opacity: 20%; /*majd szurkek legyenek, kepet is lehet igy*/
+}
+
+.forbes {
+  padding: 25px;
+}
+.wall {
+  padding: 30px;
+}
+.mashable {
+  padding: 24px;
+}
+/*FOOTER SECTION*/
+.footer-section {
+  color: #cccecf;
+  margin-top: 50px;
+}
+
+.footer {
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cim {
+  color: #606060;
+  padding-bottom: 30px;
+  padding-left: 36px;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.contact ul {
+  list-style: none;
+}
+.atribute {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+.atribute a {
+  font-size: 25px;
+  color: #7d3aa1;
+}
+
+.icons-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-self: center;
+  column-gap: 38px;
+  padding: 10px;
+  padding-top: 70px;
+}
+
+.cim-b {
+  color: #606060;
+  padding-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+.cta-form input {
+  color: #cccecf;
+  border: none;
+  border-bottom: 2px solid #cccecf;
+}
+
+.button {
+  background-color: #7d3aa1;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  padding: 5px 18px;
+
+  cursor: pointer;
+}
+.copyright {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
