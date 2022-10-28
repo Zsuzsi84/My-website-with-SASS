@@ -14,18 +14,23 @@
   .hero-section {
     height: 650px;
   }
+
   .images {
     margin-top: 65px;
   }
+
   .google {
     width: 120px;
   }
+
   .iphone {
     width: 330px;
   }
+
   .appstore {
     width: 120px;
   }
+
   .icon {
     grid-template-columns: 1fr;
     gap: 50px;
@@ -35,12 +40,15 @@
   .ion2 {
     height: 95%;
   }
+
   .cloud {
     margin-top: -40px;
   }
+
   .diamond {
     margin-top: 0;
   }
+
   .work {
     grid-template-columns: 1fr;
     gap: 0;
@@ -60,9 +68,6 @@
     font-size: 30px;
   }
 
-  .ellipsis {
-    margin-left: 78px;
-  }
   .section-wrote {
     padding: 40px 0 50px 0;
   }
@@ -105,6 +110,7 @@
 
   .cim {
     text-align: center;
+    padding-left: 0px;
   }
 
   .contact ul {
@@ -219,13 +225,12 @@
   }
 
   .how-work h2 {
-    /*padding-bottom: 20px;*/
     font-size: 25px;
   }
 
   .img img {
-    width: 90%;
-    margin-left: 45px;
+    width: 80%;
+    margin-left: 60px;
   }
 
   .ion2 {
@@ -267,18 +272,13 @@
   .garren-text h2 {
     font-size: 25px;
     margin-bottom: -30px;
+    padding-left: 0;
   }
 
   .garren-text p {
     font-size: 16px;
     padding-left: 20px;
     padding-right: 20px;
-  }
-
-  .ellipsis {
-    font-size: 30px;
-    margin-left: 10px;
-    margin-top: 70px;
   }
 
   .logos {
